@@ -1,12 +1,15 @@
-# https://developers.home-assistant.io/docs/add-ons/configuration#add-on-dockerfile
 ARG BUILD_FROM
 FROM $BUILD_FROM
+
 
 # Execute during the build of the image
 ARG TEMPIO_VERSION BUILD_ARCH
 RUN \
-    curl -sSLf -o /usr/bin/tempio \
-    "https://github.com/home-assistant/tempio/releases/download/${TEMPIO_VERSION}/tempio_${BUILD_ARCH}"
+    curl https://my-netdata.io/kickstart.sh > /tmp/netdata-kickstart.sh && sh /tmp/netdata-kickstart.sh --no-updates --stable-channel --disable-telemetry --dont-start-it --non-interactive
 
-# Copy root filesystem
+# Copy data for add-on
 COPY rootfs /
+
+EXPOSE 19999
+
+CMD [ "/usr/bin/run.sh" ]
