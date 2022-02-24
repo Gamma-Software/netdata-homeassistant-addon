@@ -1,2 +1,5 @@
 #!/usr/bin/with-contenv bashio
-exec /opt/netdata/bin/netdata -D -p 19999
+
+NETDATA_PORT=$(bashio::config 'port')
+
+exec /opt/netdata/bin/netdata -D -p ${NETDATA_PORT}
