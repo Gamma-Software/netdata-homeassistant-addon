@@ -1,9 +1,20 @@
 <!-- https://developers.home-assistant.io/docs/add-ons/presentation#keeping-a-changelog -->
 
-## 1.1.0
+# Changelog
 
-- Updates
+All notable changes to this project will be documented in this file.
 
-## 1.0.0
+The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
+and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-- Initial release
+## [1.0.0] - 2022-02-25
+
+### Added
+
+- Integration of Netdata
+- Configuration script
+- Retrieve the add-on in the Gamma Software package regitry
+- Netdata Logo
+- Netdata icon
+- Readme
+- Documentation
