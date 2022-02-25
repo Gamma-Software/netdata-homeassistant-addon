@@ -12,14 +12,14 @@ arch:
   - i386
 stage: experimental
 init: false
-ports:
-  19999/tcp: 19999
-ports_description:
-  19999/tcp: "netdata default port"
+panel_icon: mdi:chart-bell-curve
+panel_title: Netdata
+ingress: true
+ingress_port: 19999
 journald: true
 privileged:
   - SYS_PTRACE
-apparmor: unconfined
+apparmor: true
 options:
   hostname: homeassistant
   page_cache_size: 32
