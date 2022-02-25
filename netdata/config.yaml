@@ -10,7 +10,6 @@ arch:
   - aarch64
   - amd64
   - i386
-stage: stable
 init: false
 panel_icon: mdi:chart-bell-curve
 panel_title: Netdata
