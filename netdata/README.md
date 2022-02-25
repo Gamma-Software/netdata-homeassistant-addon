@@ -36,8 +36,7 @@ Netdata is licensed under the GNU General Public License v3.0
 This homeassistant add-on is an integration of Netdata.
 Here is an example of a Netdata dashboard:
 
-
-![netdata charts](https://www.netdata.cloud/wp-content/uploads/2021/05/overview-20210521-2.png)
+![netdata charts](../image/screenshot.png))
 
 [aarch64-shield]: https://img.shields.io/badge/aarch64-yes-green.svg
 [amd64-shield]: https://img.shields.io/badge/amd64-yes-green.svg
