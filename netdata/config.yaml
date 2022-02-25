@@ -31,4 +31,4 @@ schema:
   dbengine_disk_space: int
   enable_alarm: bool
   enable_log: bool
-image: "ghcr.io/Gamma-Software/{arch}-netdata-homeassistant-addon"
+image: "ghcr.io/gamma-software/{arch}-netdata-homeassistant-addon"
