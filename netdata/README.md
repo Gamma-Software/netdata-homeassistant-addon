@@ -27,6 +27,10 @@ preparation.
 
 For more information you can visit the [official website](https://netdata.cloud) or the [documentation](https://docs.netdata.cloud) or the [Github page](https://github.com/netdata/netdata/blob/master/README.md).
 
+# License
+Netdata is licensed under the GNU General Public License v3.0
+
+[Netdata License](https://github.com/netdata/netdata/blob/master/LICENSE)
 # Homeassistant integration
 
 This homeassistant add-on is an integration of Netdata.
