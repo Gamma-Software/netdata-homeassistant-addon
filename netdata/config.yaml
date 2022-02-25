@@ -41,4 +41,4 @@ schema:
   #cloud_token: str
   #cloud_rooms:
   #  - str
-#image: "ghcr.io/Gamma-Software/{arch}-netdata-homeassistant-addon"
+image: "ghcr.io/Gamma-Software/{arch}-netdata-homeassistant-addon"
