@@ -1,8 +1,13 @@
 #!/usr/bin/with-contenv bashio
 
-NETDATA_TOKEN_CLAIM=$(bashio::config 'token_claim')
-NETDATA_ROOM=$(bashio::config 'room')
-NETDATA_URL=$(bashio::config 'url')
-NETDATA_PORT=$(bashio::config 'port')
+bashio::log.info "Configuring Netdata..."
+/usr/bin/config_netdata.sh
 
-exec /opt/netdata/bin/netdata netdata-claim.sh -token=$NETDATA_TOKEN_CLAIM -rooms=$NETDATA_ROOM -url=$NETDATA_URL -D -p $NETDATA_PORT
+#bashio::log.info "Connecting Netdata instance to cloud..."
+#NETDATA_CLOUD_URL=$(bashio::config 'cloud_url')
+#NETDATA_CLOUD_TOKEN=$(bashio::config 'cloud_token')
+#NETDATA_CLOUD_ROOMS=$(bashio::config 'cloud_rooms')
+#curl https://my-netdata.io/kickstart.sh > /tmp/netdata-kickstart.sh && sh /tmp/netdata-kickstart.sh --claim-token ${NETDATA_CLOUD_TOKEN} --claim-rooms ${NETDATA_CLOUD_ROOMS} --claim-url ${NETDATA_CLOUD_URL}
+
+bashio::log.info "Starting Netdata..."
+exec /opt/netdata/bin/netdata -p 19999 -D -c /etc/netdata/netdata.conf
