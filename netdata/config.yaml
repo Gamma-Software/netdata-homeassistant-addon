@@ -1,0 +1,40 @@
+# https://developers.home-assistant.io/docs/add-ons/configuration#add-on-config
+name: Netdata add-on
+version: "0.1.0"
+slug: netdata
+description: Netdata https://www.netdata.cloud/ Monitor everything in real time. For free
+url: "https://github.com/Gamma-Software/netdata-homeassistant-addon"
+arch:
+  - armhf
+  - armv7
+  - aarch64
+  - amd64
+  - i386
+startup: application
+init: false
+ports:
+  19999/tcp: 19999
+ports_description:
+  19999/tcp: "netdata default port"
+devices:
+  - /etc/passwd:/host/etc/passwd:ro
+  - /etc/group:/host/etc/group:ro
+  - /proc:/host/proc:ro
+  - /sys:/host/sys:ro
+  - /etc/os-release:/host/etc/os-release:ro
+journald: true
+privileged:
+  - SYS_PTRACE
+apparmor:
+  - unconfined
+options:
+  token_claim: "xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx"
+  room:
+    - ROOM1
+    - ROOM2
+  url: "https://app.netdata.cloud"
+schema:
+  token_claim: str
+  room: list(str?)
+  url: url
+image: "ghcr.io/Gamma-Software/{arch}-netdata-homeassistant-addon"
