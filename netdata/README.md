@@ -1,4 +1,4 @@
-# Home Assistant Add-on: Example add-on
+# Home Assistant Add-on: Netdata Add-on
 
 _Example add-on to use as a blueprint for new add-ons._
 
