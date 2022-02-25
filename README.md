@@ -32,8 +32,10 @@ Netdata is licensed under the GNU General Public License v3.0
 
 [Netdata License](https://github.com/netdata/netdata/blob/master/LICENSE)
 # Homeassistant integration
+[![Open your Home Assistant instance and Open the ingress URL of a Supervisor add-on.](https://my.home-assistant.io/badges/supervisor_ingress.svg)](https://my.home-assistant.io/redirect/supervisor_ingress/?addon=Netdata)
 
 This homeassistant add-on is an integration of Netdata.
+
 Here is an example of a Netdata dashboard:
 
 
