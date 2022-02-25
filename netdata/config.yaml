@@ -19,8 +19,7 @@ ports_description:
 journald: true
 privileged:
   - SYS_PTRACE
-apparmor:
-  - unconfined
+apparmor: unconfined
 options:
   hostname: homeassistant
   page_cache_size: 32
