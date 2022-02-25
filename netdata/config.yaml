@@ -27,18 +27,10 @@ options:
   dbengine_disk_space: 256
   enable_alarm: true
   enable_log: true
-  #cloud_url: https://app.netdata.cloud
-  #cloud_token: xxxxxxxxxxxxxxxxxxxxxxx
-  #cloud_rooms:
-  #  - ROOM
 schema:
   hostname: str
   page_cache_size: int
   dbengine_disk_space: int
   enable_alarm: bool
   enable_log: bool
-  #cloud_url: url
-  #cloud_token: str
-  #cloud_rooms:
-  #  - str
 image: "ghcr.io/Gamma-Software/{arch}-netdata-homeassistant-addon"
