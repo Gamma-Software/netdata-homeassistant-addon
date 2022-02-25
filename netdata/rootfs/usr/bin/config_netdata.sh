@@ -2,6 +2,7 @@
 
 # Retrieve the default Netdata configuration
 /opt/netdata/bin/netdata -d -p 19999 & sleep 2
+mkdir -p /etc/netdata
 curl -so /etc/netdata/netdata.conf http://localhost:19999/netdata.conf
 pkill -9 netdata
 
