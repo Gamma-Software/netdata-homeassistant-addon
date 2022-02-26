@@ -1,5 +1,6 @@
 ARG BUILD_FROM
 FROM $BUILD_FROM
+LABEL maintainer="valentin.rudloff.perso@gmail.com"
 
 EXPOSE 19999
 
