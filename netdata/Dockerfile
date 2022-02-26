@@ -1,10 +1,6 @@
 ARG BUILD_FROM
 FROM $BUILD_FROM
 
-ARG BUILD_DATE
-LABEL org.opencontainers.image.version=$BUILD_DATE
-
-
 EXPOSE 19999
 
 # Execute during the build of the image
