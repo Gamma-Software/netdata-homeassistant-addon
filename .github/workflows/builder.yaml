@@ -5,10 +5,9 @@ env:
   MONITORED_FILES: "build.yaml config.yaml Dockerfile rootfs"
 
 on:
-  release:
-      tags:
-        - v*
   push:
+    tags:
+      - v*
     branches:
       - main
   pull_request:
