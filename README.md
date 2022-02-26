@@ -1,24 +1,16 @@
 <p align="center"><a href="https://netdata.cloud"><img src="https://user-images.githubusercontent.com/1153921/95268672-a3665100-07ec-11eb-8078-db619486d6ad.png" alt="Netdata" width="300" /></a></p>
 
-<p align="center">
-<a href="https://github.com/Gamma-Software/netdata-homeassistant-addon/pkgs/container/aarch64-netdata-homeassistant-addon"><img src="https://img.shields.io/badge/aarch64-yes-green.svg
-" alt="Netdata" height="20" /></a>
-<a href="https://github.com/Gamma-Software/netdata-homeassistant-addon/pkgs/container/amd64-netdata-homeassistant-addon"><img src="https://img.shields.io/badge/amd64-yes-green.svg
-" alt="Netdata" height="20" /></a>
-<a href="https://github.com/Gamma-Software/netdata-homeassistant-addon/pkgs/container/armhf-netdata-homeassistant-addon"><img src="https://img.shields.io/badge/armhf-yes-green.svg
-" alt="Netdata" height="20" /></a>
-<a href="https://github.com/Gamma-Software/netdata-homeassistant-addon/pkgs/container/armv7-netdata-homeassistant-addon"><img src="https://img.shields.io/badge/armv7-yes-green.svg
-" alt="Netdata" height="20" /></a>
-<a href="https://github.com/Gamma-Software/netdata-homeassistant-addon/pkgs/container/i386-netdata-homeassistant-addon"><img src="https://img.shields.io/badge/i386-yes-green.svg
-" alt="Netdata" height="20" /></a>
-<a href="https://netdata.cloud"><img src="https://github.com/Gamma-Software/netdata-homeassistant-addon/actions/workflows/builder.yaml/badge.svg
-" alt="Netdata" height="20" /></a>
-</p>
-
 <h3 align="center">Netdata is high-fidelity infrastructure monitoring and troubleshooting.<br />Open-source, free, preconfigured, opinionated, and always real-time.</h3>
 <br />
 
 <img src="https://user-images.githubusercontent.com/1153921/95269366-1b814680-07ee-11eb-8ff4-c1b0b8758499.png" alt="---" style="max-width: 100%;" />
+
+![Supports aarch64 Architecture][aarch64-shield]
+![Supports amd64 Architecture][amd64-shield]
+![Supports armhf Architecture][armhf-shield]
+![Supports armv7 Architecture][armv7-shield]
+![Supports i386 Architecture][i386-shield]
+![Github CI][ci]
 
 # About
 
@@ -123,3 +115,5 @@ SOFTWARE.
 [armhf-shield]: https://img.shields.io/badge/armhf-yes-green.svg
 [armv7-shield]: https://img.shields.io/badge/armv7-yes-green.svg
 [i386-shield]: https://img.shields.io/badge/i386-yes-green.svg
+
+[ci]: https://github.com/Gamma-Software/netdata-homeassistant-addon/actions/workflows/builder.yaml/badge.svg
