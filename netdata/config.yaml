@@ -1,5 +1,5 @@
 # https://developers.home-assistant.io/docs/add-ons/configuration#add-on-config
-name: Netdata add-on
+name: Netdata
 version: "1.0.0"
 slug: netdata
 description: Netdata - Monitor everything in real time
