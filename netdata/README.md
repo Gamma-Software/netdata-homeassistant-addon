@@ -14,7 +14,6 @@
 ![Supports i386 Architecture][i386-shield]
 ![Github CI][ci]
 
-
 Netdata's **distributed, real-time monitoring Agent** collects thousands of metrics from systems, hardware, containers,
 and applications with zero configuration. It runs permanently on all your physical/virtual servers, containers, cloud
 deployments, and edge/IoT devices, and is perfectly safe to install on your systems mid-incident without any
@@ -26,7 +25,7 @@ Netdata is licensed under the GNU General Public License v3.0 [Netdata License](
 
 Here is an example of a Netdata dashboard:
 
-![netdata charts](../image/screenshot.png)
+![netdata charts][netdata screenshot]
 
 # Installation
 
@@ -42,10 +41,7 @@ The Netdata Addon is not available in the Home Assistant default Addon. To insta
 8. Start the "Netdata" add-on
 9. Check the logs of the "Netdata" add-on to see if everything went well
 
-![netdata installation](../image/installation.gif)
-
-[:books: Read the full add-on documentation][docs]
-
+![netdata installation][netdata installation]
 ## Support
 
 Got questions?
@@ -108,3 +104,5 @@ SOFTWARE.
 [i386-shield]: https://img.shields.io/badge/i386-yes-green.svg
 
 [ci]: https://github.com/Gamma-Software/netdata-homeassistant-addon/actions/workflows/builder.yaml/badge.svg
+[netdata installation]: https://github.com/Gamma-Software/netdata-homeassistant-addon/blob/main/image/installation.gif?raw=true
+[netdata screenshot]: https://github.com/Gamma-Software/netdata-homeassistant-addon/blob/main/image/screenshot.png?raw=true

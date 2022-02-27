@@ -43,8 +43,6 @@ The Netdata Addon is not available in the Home Assistant default Addon. To insta
 
 ![netdata installation](image/installation.gif)
 
-[:books: Read the full add-on documentation][docs]
-
 ## Support
 
 Got questions?
