@@ -1,6 +1,6 @@
 # https://developers.home-assistant.io/docs/add-ons/configuration#add-on-config
 name: Netdata
-version: "2.0.0"
+version: "2.1.0"
 slug: netdata
 description: Netdata - Monitor everything in real time
 url: "https://github.com/Gamma-Software/netdata-homeassistant-addon"
@@ -24,6 +24,7 @@ options:
   dbengine_disk_space: 256
   enable_alarm: true
   enable_log: true
+  claim_url: https://app.netdata.cloud
   claim_token: xxxxxxxxxxxxxxxxxxxxxxx
   claim_rooms:
     - ROOM
@@ -33,6 +34,7 @@ schema:
   dbengine_disk_space: int
   enable_alarm: bool
   enable_log: bool
+  claim_url: str
   claim_token: str
   claim_rooms:
     - str
