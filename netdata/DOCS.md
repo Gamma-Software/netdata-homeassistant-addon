@@ -18,4 +18,3 @@ Sign in to Netdata Cloud
 
 - **claim_token**: Specify a unique claiming token associated with your Space in Netdata Cloud to be used to connect to the node after the install.
 - **claim_rooms**: Specify a comma-separated list of tokens for each War Room this node should appear in.
-- **cloud_url**: Specify a URL to use when connecting to the cloud. Defaults to https://app.netdata.cloud.

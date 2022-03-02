@@ -24,7 +24,6 @@ options:
   dbengine_disk_space: 256
   enable_alarm: true
   enable_log: true
-  cloud_url: https://app.netdata.cloud
   claim_token: xxxxxxxxxxxxxxxxxxxxxxx
   claim_rooms:
     - ROOM
@@ -34,7 +33,6 @@ schema:
   dbengine_disk_space: int
   enable_alarm: bool
   enable_log: bool
-  cloud_url: url
   claim_token: str
   claim_rooms:
     - str
