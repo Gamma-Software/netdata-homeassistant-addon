@@ -31,17 +31,18 @@ Here is an example of a Netdata dashboard:
 
 The Netdata Addon is not available in the Home Assistant default Addon. To install this Addon you'll need to:
 
-1. Go to the *Configuration* section
-2. Go to the *Addon, Backup & Supervisor* section
-3. Click on the *add-on store* lower-right button
+1. Go to the _Configuration_ section
+2. Go to the _Addon, Backup & Supervisor_ section
+3. Click on the _add-on store_ lower-right button
 4. Click on the 3 dots icon on the top-right corner
-5. Click on *Repositories*
+5. Click on _Repositories_
 6. Add this repository: https://github.com/Gamma-Software/netdata-homeassistant-addon
 7. Search for the "Netdata" add-on
 8. Start the "Netdata" add-on
 9. Check the logs of the "Netdata" add-on to see if everything went well
 
 ![netdata installation][netdata installation]
+
 ## Support
 
 Got questions?
@@ -55,9 +56,9 @@ You could also [open an issue here][issue] GitHub.
 
 This addon is tested on the following platforms:
 
-* Raspberry Pi 4
-* MacBook Pro 13' 2011
-* Asus Zenbook 14'
+- Raspberry Pi 4
+- MacBook Pro 13' 2011
+- Asus Zenbook 14'
 
 If you tested it on your own system and it works for you, please contact me by mail so I can add it to the tested list.
 [:mailbox_with_mail: Contact us][contact]
@@ -91,18 +92,15 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
-
 [valentin]: https://github.com/Gamma-Software
 [contributors]: https://github.com/Gamma-Software/netdata-homeassistant-addon/graphs/contributors
 [issue]: https://github.com/Gamma-Software/netdata-homeassistant-addon/issues
 [contact]: valentin.rudloff.perso@gmail.com
-
 [aarch64-shield]: https://img.shields.io/badge/aarch64-yes-green.svg
 [amd64-shield]: https://img.shields.io/badge/amd64-yes-green.svg
 [armhf-shield]: https://img.shields.io/badge/armhf-yes-green.svg
 [armv7-shield]: https://img.shields.io/badge/armv7-yes-green.svg
 [i386-shield]: https://img.shields.io/badge/i386-yes-green.svg
-
 [ci]: https://github.com/Gamma-Software/netdata-homeassistant-addon/actions/workflows/builder.yaml/badge.svg
 [netdata installation]: https://github.com/Gamma-Software/netdata-homeassistant-addon/blob/main/image/installation.gif?raw=true
 [netdata screenshot]: https://github.com/Gamma-Software/netdata-homeassistant-addon/blob/main/image/screenshot.png?raw=true
