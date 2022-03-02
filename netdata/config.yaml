@@ -25,8 +25,8 @@ options:
   enable_alarm: true
   enable_log: true
   cloud_url: https://app.netdata.cloud
-  cloud_token: xxxxxxxxxxxxxxxxxxxxxxx
-  cloud_rooms:
+  claim_token: xxxxxxxxxxxxxxxxxxxxxxx
+  claim_rooms:
     - ROOM
 schema:
   hostname: str
@@ -35,7 +35,7 @@ schema:
   enable_alarm: bool
   enable_log: bool
   cloud_url: url
-  cloud_token: str
-  cloud_rooms:
+  claim_token: str
+  claim_rooms:
     - str
 image: "ghcr.io/gamma-software/{arch}-netdata-homeassistant-addon"
