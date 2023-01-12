@@ -10,4 +10,4 @@ labels:
   org.opencontainers.image.description: "Netdata https://www.netdata.cloud/ Monitor everything in real time. For free"
   org.opencontainers.image.source: "https://github.com/Gamma-Software/netdata-homeassistant-addon"
   org.opencontainers.image.licenses: "MIT License"
-  org.opencontainers.image.version: "2.1.1"
+  org.opencontainers.image.version: "2.1.2"
